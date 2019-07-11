@@ -1,20 +1,20 @@
 [
   {
     "remote":      "github",
-    "repository":  "Revanth/vendor_xiaomi",
+    "repository":  "mahajant99/vendor_xiaomi_sakura",
     "target_path": "vendor/xiaomi",
     "branch":      "lineage-16.0-4.9"
   },
   {
     "remote":      "github",
-    "repository":  "Revanth/kernel_xiaomi_msm8953",
+    "repository":  "mahajant99/kernel_xiaomi_msm8953",
     "target_path": "kernel/xiaomi/msm8953",
     "branch":      "lineage-16.0-4.9"
   },
   {
-    "remote":      "github",
+    "remote":       "github",
     "repository":  "LineageOS/android_packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings",
-    "branch": "lineage-16.0"
+    "branch": 	   "lineage-16.0"
   },
 ]

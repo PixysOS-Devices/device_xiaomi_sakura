@@ -21,12 +21,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from sakura device
 $(call inherit-product, device/xiaomi/sakura/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Pixys OS stuff.
+TARGET_BOOT_ANIMATION_RES := 1080
+$(call inherit-product, vendor/pixys/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := sakura
-PRODUCT_NAME := lineage_sakura
+PRODUCT_NAME := pixys_sakura
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 6 Pro
 PRODUCT_MANUFACTURER := Xiaomi
@@ -40,3 +41,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := "xiaomi/tissot/tissot_sprout:8.0.0/OPR1.170623.026/8.1.10:user/release-keys"
+
+# Add Maintainer
+DEVICE_MAINTAINER="Tushar Mahajan (mahajant99)"
