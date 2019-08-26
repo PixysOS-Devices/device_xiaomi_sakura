@@ -2,7 +2,7 @@
   {
     "remote":      "github",
     "repository":  "mahajant99/vendor_xiaomi_sakura",
-    "target_path": "vendor/xiaomi",
+    "target_path": "vendor/xiaomi/sakura",
     "branch":      "lineage-16.0-4.9"
   },
   {
