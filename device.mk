@@ -65,6 +65,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+device/xiaomi/sakura \
+frameworks/av/camera/cameraserver \
+frameworks/av/services/camera/libcameraservice
+
 # Touch HAL
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.xiaomi_8953
