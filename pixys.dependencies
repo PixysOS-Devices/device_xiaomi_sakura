@@ -19,6 +19,18 @@
     },
     {
         "remote":       "github",
+        "repository":   "Abhinavgupta371/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom-caf/msm8996-r/display",
+        "branch":     "lineage-18.1-caf-msm8996"
+    },
+    {
+        "remote":       "github",
+        "repository":   "Abhinavgupta371/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom-caf/msm8996-r/media",
+        "branch":     "lineage-18.1-caf-msm8996"
+    },
+    {
+        "remote":       "github",
         "repository":   "LineageOS/android_packages_resources_devicesettings",
         "target_path":  "packages/resources/devicesettings",
         "branch":     "lineage-18.1"
